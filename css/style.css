@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 :root {
@@ -25,6 +26,7 @@ body {
 
 ul {
     list-style: none;
+    
 }
 .d-flex {
     display: flex;
@@ -52,15 +54,36 @@ ul {
     flex-flow: column;
 }
 
+.small-text {
+    font-size: .8rem;
+}
+
 
 /* header */
 
 header {
     background-color: var(--bg-header);
+    padding-top: 1.5rem;
 }
 
 nav li {
     padding-right: 2rem;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a.button {
+    background-color: var(--primary-color);
+    height: 1.7rem;
+    width: 3.8rem;
+    border-radius: 15px;
+    color: var(--dark-text);
+    text-align: center;
+    line-height: 1.7rem;
 }
 
 .hero {
