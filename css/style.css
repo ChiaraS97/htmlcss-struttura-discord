@@ -46,6 +46,14 @@ header {
 
 /* main */
 
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
+
 /* footer  */
 
 footer {
