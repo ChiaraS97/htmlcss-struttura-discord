@@ -54,6 +54,10 @@ header {
     width: 40%;
 }
 
+.even {
+    background-color: var(--secondary-color);
+}
+
 /* footer  */
 
 footer {
