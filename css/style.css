@@ -31,6 +31,7 @@ ul {
     flex-flow: row;
     justify-content: space-between;
     align-content: flex-start;
+    
 }
 
 .container {
@@ -43,6 +44,7 @@ ul {
 header {
     background-color: var(--bg-header);
 }
+
 
 /* main */
 
