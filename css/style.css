@@ -79,17 +79,18 @@ header a {
 a.button {
     background-color: var(--primary-color);
     height: 1.7rem;
-    width: 3.8rem;
     border-radius: 15px;
     color: var(--dark-text);
     text-align: center;
     line-height: 1.7rem;
+    padding: 0 1rem 0 1rem;
 }
 
 .hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     min-height: 480px;
+    
 }
 
 .hero-text {
@@ -101,6 +102,21 @@ a.button {
 header h1 {
     padding-bottom: 2rem;
     font-size: 2.5rem; 
+}
+
+.button-container {
+    margin-top: 1.3rem;
+    line-height: 100%;
+}
+
+.button-container a {
+    padding: .5rem 1rem .5rem 1rem;
+    margin-right: 1rem;
+}
+
+a.button.link {
+    background-color: var(--bg-footer);
+    color: var(--primary-color);
 }
 
 /* main */
