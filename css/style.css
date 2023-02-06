@@ -39,6 +39,19 @@ ul {
     max-width: 1200px;
 }
 
+.text-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.column {
+    flex-flow: column;
+}
+
 
 /* header */
 
@@ -53,6 +66,13 @@ nav li {
 .hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    min-height: 480px;
+}
+
+.hero-text {
+    color: var(--primary-color);
+    text-align: center;
+    
 }
 
 
