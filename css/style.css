@@ -39,10 +39,15 @@ ul {
     max-width: 1200px;
 }
 
+
 /* header */
 
 header {
     background-color: var(--bg-header);
+}
+
+nav li {
+    padding-right: 2rem;
 }
 
 
