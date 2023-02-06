@@ -23,6 +23,16 @@ body {
     background-color: var(--primary-color);
 }
 
+ul {
+    list-style: none;
+}
+.d-flex {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
 /* header */
 
 header {
