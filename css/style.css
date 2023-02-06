@@ -14,3 +14,7 @@
     --details: #7289da;
     --dark-text: #000000;
 }
+
+.debug {
+    border: 1px solid black;
+}
