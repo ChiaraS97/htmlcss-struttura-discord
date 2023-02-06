@@ -58,6 +58,10 @@ header {
     background-color: var(--secondary-color);
 }
 
+.reverse {
+    flex-direction: row-reverse;
+}
+
 /* footer  */
 
 footer {
