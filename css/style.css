@@ -33,4 +33,5 @@ header {
 
 footer {
     background-color: var(--bg-footer);
+    color: var(--primary-color);
 }
