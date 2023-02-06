@@ -8,7 +8,7 @@
 
 :root {
     --primary-color: #ffffff;
-    --bg-header: #404eed;
+    --bg-header: #255ee9;
     --secondary-color: #f6f6f6;
     --bg-footer: #23272a;
     --details: #7289da;
@@ -48,6 +48,11 @@ header {
 
 nav li {
     padding-right: 2rem;
+}
+
+.hero {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 
