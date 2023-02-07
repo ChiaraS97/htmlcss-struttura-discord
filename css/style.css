@@ -26,11 +26,12 @@ body {
 
 ul {
     list-style: none;
+    padding-top: .5rem;
     
 }
 .d-flex {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-content: flex-start;
     
@@ -89,8 +90,8 @@ a.button {
 .hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    min-height: 480px;
-    
+    min-height: 450px;
+    background-position: center;
 }
 
 .hero-text {
